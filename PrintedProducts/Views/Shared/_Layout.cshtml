@@ -35,10 +35,14 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-route="trays">Movement Trays</a>
+                            <a class="nav-link text-dark" asp-controller="Product" asp-action="Index" asp-route-id="1">Movement Trays</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Product" asp-action="Index" asp-route-id="2">Terrain</a>
                         </li>
                     </ul>
                 </div>
+                <partial name="_LoginPartial" />
             </div>
         </nav>
     </header>

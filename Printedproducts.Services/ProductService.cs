@@ -24,7 +24,11 @@ namespace Printedproducts.Services
 
         public Products GetById(int id)
         {
-            throw new NotImplementedException();
+            var products = context.Products
+                .Where(p => p.Id == id)
+                .FirstOrDefault();
+
+            return products;
         }
 
         public IEnumerable<Products> GetByType(string type)

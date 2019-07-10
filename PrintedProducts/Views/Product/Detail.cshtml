@@ -1,7 +1,30 @@
-﻿
+﻿@model ProductListingModel
 @{
     ViewData["Title"] = "Detail";
 }
 
-<h1>Detail</h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8">
+            <h3>
+                @Model.Title
+            </h3><img alt="Product Image" src=@Model.ImageUrl />
+        </div>
+        <div class="row"></div>
+        <div class="col-md-4">
+            <p>
+                @Model.LongDescription
+            </p><img alt="IsInStock" src="" />
+            <div class="row">
+                <div class="col-md-6">
+                    Quantity in stock: @Model.QuantityAvailable
+                </div>
+                <div class="col-md-6">
+                    Price: @Model.Price
+                    <a href="#" class="btn btn-primary btn-md" type="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 

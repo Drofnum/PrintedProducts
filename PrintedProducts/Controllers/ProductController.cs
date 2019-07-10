@@ -17,11 +17,39 @@ namespace PrintedProducts.Controllers
             this.productService = productService;
         }
 
-        [Route("/Product/Index",
-            Name = "trays")]
-        public IActionResult Index()
+        public IActionResult Index(int id)
         {
-            var model = BuildProductIndexModel("Tray");
+            if (id == 1)
+            {
+                var model = BuildProductIndexModel("Tray");
+                return View(model);
+            }
+            else if (id == 2)
+            {
+                var model = BuildProductIndexModel("Terrain");
+                return View(model);
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+        public IActionResult Detail(int id)
+        {
+            var product = productService.GetById(id);
+
+            var model = new ProductListingModel
+            {
+                Id = product.Id,
+                Title = product.Title,
+                LongDescription = product.LongDescription,
+                ImageUrl = product.ImageUrl,
+                Price = product.Price,
+                QuantityAvailable = product.QuantityAvailable,
+                IsInStock = product.IsInStock
+            };
+
             return View(model);
         }
 
@@ -43,7 +71,7 @@ namespace PrintedProducts.Controllers
             {
                 ProductList = products
             };
-            
+
         }
 
     }
