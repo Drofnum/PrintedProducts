@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts\\PrintedProducts.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts.Data\\PrintedProducts.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts.Data\\PrintedProducts.Data.csproj",
+        "projectName": "PrintedProducts.Data",
+        "projectPath": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts.Data\\PrintedProducts.Data.csproj",
+        "packagesPath": "C:\\Users\\echao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\echao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\echao\\source\\repos\\PrintedProducts\\Printedproducts.Services\\Printedproducts.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\Printedproducts.Services\\Printedproducts.Services.csproj",
+        "projectName": "Printedproducts.Services",
+        "projectPath": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\Printedproducts.Services\\Printedproducts.Services.csproj",
+        "packagesPath": "C:\\Users\\echao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\Printedproducts.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\echao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts.Data\\PrintedProducts.Data.csproj": {
+                "projectPath": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts.Data\\PrintedProducts.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts\\PrintedProducts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts\\PrintedProducts.csproj",
+        "projectName": "PrintedProducts",
+        "projectPath": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts\\PrintedProducts.csproj",
+        "packagesPath": "C:\\Users\\echao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\echao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts.Data\\PrintedProducts.Data.csproj": {
+                "projectPath": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\PrintedProducts.Data\\PrintedProducts.Data.csproj"
+              },
+              "C:\\Users\\echao\\source\\repos\\PrintedProducts\\Printedproducts.Services\\Printedproducts.Services.csproj": {
+                "projectPath": "C:\\Users\\echao\\source\\repos\\PrintedProducts\\Printedproducts.Services\\Printedproducts.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

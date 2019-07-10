@@ -1,0 +1,12 @@
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\bin\Debug\netcoreapp2.2\Printedproducts.Services.deps.json
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\bin\Debug\netcoreapp2.2\Printedproducts.Services.dll
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\bin\Debug\netcoreapp2.2\Printedproducts.Services.pdb
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\bin\Debug\netcoreapp2.2\PrintedProducts.Data.dll
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\bin\Debug\netcoreapp2.2\PrintedProducts.Data.pdb
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\obj\Debug\netcoreapp2.2\Printedproducts.Services.csprojAssemblyReference.cache
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\obj\Debug\netcoreapp2.2\Printedproducts.Services.csproj.CoreCompileInputs.cache
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\obj\Debug\netcoreapp2.2\Printedproducts.Services.AssemblyInfoInputs.cache
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\obj\Debug\netcoreapp2.2\Printedproducts.Services.AssemblyInfo.cs
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\obj\Debug\netcoreapp2.2\Printedproducts.Services.csproj.CopyComplete
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\obj\Debug\netcoreapp2.2\Printedproducts.Services.dll
+C:\Users\echao\source\repos\PrintedProducts\Printedproducts.Services\obj\Debug\netcoreapp2.2\Printedproducts.Services.pdb

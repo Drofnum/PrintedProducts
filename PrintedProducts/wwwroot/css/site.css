@@ -1,0 +1,253 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding: 0 0 20px 0;
+    background-color: #e5e5e5;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar {
+    box-shadow: 0 5px 4px -6px #000;
+}
+
+.navLogo {
+    background-image: url("/images/theme/logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 16px;
+    width: 150px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.navbar li {
+    font-weight: bold;
+}
+
+.sectionHeader {
+    background-color: rgba(100, 0, 0, 0.95);
+    padding: 8px 0 24px 24px;
+}
+
+.sectionHeading {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Roboto';
+    padding: 16px 0 16px 0;
+    border-bottom: 1px solid #335;
+    margin-bottom: 12px;
+}
+
+.postHeading {
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Roboto';
+    padding: 16px 0 16px 0;
+    width: 100%;
+}
+
+.sectionInfo {
+    height: 400px;
+    background-color: white;
+}
+
+.frontPageSplash {
+    background-image: url("/images/theme/front-splash.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.frontPagelearn {
+    font-family: 'Roboto';
+    padding: 12px 0 0 32px;
+    height: 360px;
+}
+
+.sectionDescription {
+    color: #EEE
+}
+
+.frontPageHeading {
+    font-size: 3.2em;
+    margin: 16px 0;
+}
+
+.frontPageSubHeading {
+    font-size: 2em;
+}
+
+.frontPageTopContainer {
+    padding: 40px 80px 42px 40px;
+    border: 1px solid #999;
+    background-color: #2569D5;
+    font-family: 'Roboto';
+}
+
+.homeSearch {
+    width: 100%;
+    margin-top: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border: 0px;
+    height: 2.3em;
+    font-size: 2.1em;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+.homeSearchFocus {
+    border: none !important;
+    outline: none !important;
+    transition: ease-in 0.2s;
+    color: #03a9f4;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 5px 4px -6px #000;
+}
+
+.frontPageContent {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#newItems {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 4px 0 16px 0;
+}
+
+.thumbnail {
+    background-size: 100%;
+}
+
+
+/*Custom Buttons*/
+
+.btn-back {
+    background-color: #555;
+    color: #fff !important;
+    transition: ease-in 0.1s;
+    border-radius: 0px !important;
+}
+
+    .btn-back:hover {
+        transition: ease-in 0.1s;
+        background-color: #1e88e5 !important;
+    }
+
+.btn-newReply {
+    background-color: #5C6BC0 !important;
+    color: #fff !important;
+    transition: ease-in 0.1s;
+    border-radius: 0px !important;
+}
+
+    .btn-newReply:hover {
+        transition: ease-in 0.1s;
+        background-color: #9FA8DA !important;
+    }
+
+.btn-file {
+    color: white;
+    width: 100%;
+    transition: ease 0.3s;
+    background-color: #4FC3F7;
+}
+
+    .btn-file:hover {
+        transition: ease 0.3s;
+        background-color: #039BE5;
+    }
+
+.btn-newPost {
+    background-color: #c62828;
+    color: #fff !important;
+    transition: ease-in 0.1s;
+    border-radius: 0px !important;
+}
+
+    .btn-newPost:hover {
+        transition: ease-in 0.1s;
+        background-color: #e53935 !important;
+        color: #fff !important;
+    }
+
+.btn-submitPost {
+    background-color: #00695C !important;
+    color: #fff !important;
+    transition: ease-in 0.1s;
+    border-radius: 0px !important;
+}
+
+    .btn-submitPost:hover {
+        transition: ease-in 0.1s;
+        background-color: #00897B !important;
+        color: #fff !important;
+    }
+
+.btn-forumSearch{
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+}
